@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shalini H R — Full-Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+  <body>
+    <!-- SCROLL PROGRESS -->
+    <div id="scroll-progress"></div>
+
+    <!-- NAVBAR -->
+    <nav id="navbar">
+      <div class="nav-inner">
+        <a href="#" class="logo">SHR<span class="logo-dot">.</span></a>
+        <ul class="nav-links">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact-section">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">
+            <span class="theme-icon">◐</span>
+          </button>
+          <a href="Shalini HR (1).pdf" download class="nav-cta">Resume ↓</a>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div class="mobile-menu" id="mobile-menu">
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact-section">Contact</a>
+        <a href="Shalini HR (1).pdf" download class="mobile-cta"
+          >Download Resume</a
+        >
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="hero-bg">
+        <div class="grid-lines"></div>
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-text">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            Available for opportunities
+          </div>
+          <h1 class="hero-name">
+            Shalini<br /><span class="name-outline">H R</span>
+          </h1>
+          <p class="hero-role">
+            I am a <span id="typing-text" class="typed-word"></span
+            ><span class="cursor">|</span>
+          </p>
+          <p class="hero-tagline">
+            Full-Stack Developer · MERN Enthusiast · Competitive Programmer
+          </p>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-num">200+</span
+              ><span class="stat-label">GitHub Commits</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-num">100+</span
+              ><span class="stat-label">LeetCode Solved</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-num">5</span
+              ><span class="stat-label">Live Projects</span>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn-primary">View Projects →</a>
+            <a href="Shalini HR (1).pdf" download class="btn-secondary"
+              >Download CV</a
+            >
+          </div>
+
+          <div class="geo-chip">
+            <button id="locateBtn"><span>📍</span> Detect my location</button>
+            <p id="message"></p>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <div class="image-frame">
+            <div class="frame-border"></div>
+            <img src="myphoto.jpg.jpeg" alt="Shalini H R" loading="lazy" />
+            <!-- <div class="image-tag tag-1">React</div>
+          <div class="image-tag tag-2">MongoDB</div>
+          <div class="image-tag tag-3">Node.js</div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="section-label"> Work</span>
+          <h2 class="section-title">Projects</h2>
+          <p class="section-sub">
+            Enterprise-scale full-stack apps built with modern frameworks
+          </p>
+        </div>
+
+        <div class="project-controls">
+          <input
+            id="project-search"
+            type="text"
+            placeholder="Search projects…"
+            class="search-input"
+          />
+          <div id="project-filters" class="filter-bar"></div>
+        </div>
+
+        <div id="projects-container" class="projects-grid"></div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="section-label"> Background</span>
+          <h2 class="section-title">Education</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="tl-marker">
+              <div class="tl-dot"></div>
+              <div class="tl-line"></div>
+            </div>
+            <div class="tl-card">
+              <span class="tl-year">2026</span>
+              <h3 class="tl-degree">B.E in Computer Science</h3>
+              <p class="tl-school">CIT Mandya · VTU</p>
+              <span class="tl-grade">CGPA 8.5</span>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-marker">
+              <div class="tl-dot"></div>
+              <div class="tl-line"></div>
+            </div>
+            <div class="tl-card">
+              <span class="tl-year">2021</span>
+              <h3 class="tl-degree">PCMB — Pre-University</h3>
+              <p class="tl-school">Bharathi Composite PU College</p>
+              <span class="tl-grade">83%</span>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-marker">
+              <div class="tl-dot"></div>
+            </div>
+            <div class="tl-card">
+              <span class="tl-year">2019</span>
+              <h3 class="tl-degree">SSLC</h3>
+              <p class="tl-school">
+                Jeevodaya High School · Karnataka State Board
+              </p>
+              <span class="tl-grade">89%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CERTIFICATES -->
+    <section id="certificates">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="section-label"> Achievements</span>
+          <h2 class="section-title">Certificates</h2>
+          <p class="section-sub">
+            Certifications and achievements in development and programming
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Certificate 1 -->
+          <div class="project-card">
+            <div class="project-content">
+              <span class="project-tag">TCSiON</span>
+              <h3 class="project-title">TCSiON Career Edge-IT Primer</h3>
+              <p class="project-desc">
+                Successfully completed TCSiON Career Edge-IT Primer course that
+                cover IT Industry Overview | IT job Tools |Basics of Industry
+                Elements | Baics of Trending Technologies | Career and Growth.
+              </p>
+
+              <div class="project-links">
+                <a href="certificates/mern-certificate.pdf" target="_blank">
+                  View Certificate ↗
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certificate 2 -->
+          <div class="project-card">
+            <div class="project-content">
+              <span class="project-tag">IGNITEX</span>
+              <h3 class="project-title">Software Hackathon</h3>
+              <p class="project-desc">
+                Successfully completed participated in software Hackathon
+                organized by department of computer science and engineering in
+                Association with NAIN Centre,BGSIT.
+              </p>
+
+              <div class="project-links">
+                <a href="certificates/java-certificate.pdf" target="_blank">
+                  View Certificate ↗
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certificate 3 -->
+          <div class="project-card">
+            <div class="project-content">
+              <span class="project-tag">ABC training and upskilling</span>
+              <h3 class="project-title">MERN Full Stack Web development</h3>
+              <p class="project-desc">
+                has Successfully completed a 3-month internships in MERN Full
+                Stack Web development.
+              </p>
+
+              <div class="project-links">
+                <a href="certificates/dsa-certificate.pdf" target="_blank">
+                  View Certificate ↗
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="section-label"> Expertise</span>
+          <h2 class="section-title">Skills</h2>
+        </div>
+        <div id="skills-container" class="skills-grid"></div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact-section">
+      <div class="section-inner contact-inner">
+        <div class="contact-left">
+          <span class="section-label"> Say Hello</span>
+          <h2 class="section-title">Let's build<br />something great.</h2>
+          <p class="contact-sub">
+            Open to internships, freelance projects, and full-time roles in the
+            IT field.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:shalinihr966@gmail.com" class="contact-link"
+              >✉ shalinihr966@gmail.com</a
+            >
+            <a
+              href="https://github.com/Shalinihr57/MERN_Stu_FebMay26Mys"
+              target="_blank"
+              class="contact-link"
+              >⟡ GitHub</a
+            >
+            <a
+              href="https://www.linkedin.com/in/shalini-hr"
+              target="_blank"
+              class="contact-link"
+              >⟡ LinkedIn</a
+            >
+          </div>
+        </div>
+
+        <!-- <div class="contact-right">
+        <div class="contact-form-card">
+          <div class="save-contact-box">
+            <h3>Quick Message</h3>
+            <div id="contactForm" class="save-form">
+              <input type="text" id="name" placeholder="Your Name" class="form-input">
+              <input type="email" id="email" placeholder="Your Email" class="form-input">
+              <input type="text" id="message" placeholder="Your Message" class="form-input">
+              <div class="form-actions">
+                <button id="sendBtn" class="btn-clear">Send</button>
+                <p id="status" class="save-status"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  -->
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-inner">
+        <span class="footer-logo">SHR<span>.</span></span>
+        <p>© 2026 Shalini H R · Built with passion</p>
+      </div>
+    </footer>
+
+    <!-- FLOATING CONTACT BUTTON -->
+    <button id="modal-trigger" class="fab" aria-label="Contact">☏</button>
+
+    <!-- BACK TO TOP -->
+    <button id="backToTop" class="back-top hidden" aria-label="Back to top">
+      ↑
+    </button>
+
+    <!-- CONTACT MODAL -->
+    <div id="contact-modal" class="modal-overlay hidden">
+      <div id="modal-content" class="modal-card scale-out">
+        <div class="modal-header">
+          <h3>Get in Touch</h3>
+          <button id="modal-close" class="modal-close">×</button>
+        </div>
+        <form
+          id="contact-form"
+          class="modal-form"
+          action="https://formspree.io/f/xlgzwzqo"
+          method="POST"
+        >
+          <label
+            >Name
+            <input
+              id="contact-name"
+              type="text"
+              name="name"
+              placeholder="Recruiter Name"
+              required
+            />
+          </label>
+
+          <label
+            >Email
+            <input
+              id="contact-email"
+              type="email"
+              name="email"
+              placeholder="email@company.com"
+              required
+            />
+          </label>
+
+          <label
+            >Message
+            <textarea
+              name="message"
+              placeholder="Enter your message"
+              rows="5"
+              required
+            ></textarea>
+          </label>
+
+          <p id="form-message" class="form-err"></p>
+
+          <div class="modal-actions">
+            <button type="button" id="form-cancel" class="btn-cancel">
+              Cancel
+            </button>
+
+            <button type="submit" class="btn-submit">Send →</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="js/data/projects.js"></script>
+    <script src="js/data/skills.js"></script>
+    <script src="js/features/skills-render.js"></script>
+    <script src="js/features/modal.js"></script>
+    <script src="js/features/contact-validation.js"></script>
+    <script src="js/features/theme-toggle.js"></script>
+    <script src="js/features/project-search.js"></script>
+    <script src="js/features/scrollprogress.js"></script>
+    <script src="js/features/geolocation.js"></script>
+    <script src="js/features/typinganimation.js"></script>
+    <script src="js/features/savecontactformdata.js"></script>
+    <script src="js/features/backtotop.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      // Hamburger toggle
+      document.getElementById("hamburger").addEventListener("click", () => {
+        document.getElementById("mobile-menu").classList.toggle("open");
+      });
+      // Navbar scroll effect
+      window.addEventListener("scroll", () => {
+        document
+          .getElementById("navbar")
+          .classList.toggle("scrolled", window.scrollY > 40);
+      });
+    </script>
+  </body>
+</html>
